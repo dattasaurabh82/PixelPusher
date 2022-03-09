@@ -37,6 +37,7 @@ import processing.video.*;
  [-] IP validation for MQTT client's IP [Matthieu] [ref: use boolean "isValidInet4Address(String addr)"]
  [x] Better highlight the current strip (thicker + Green color frame )
  [x] Add an info pop-up on launch
+ [] clonsole pay pause clear etc. 
  */
 
 Println console;
