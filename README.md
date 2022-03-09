@@ -40,4 +40,4 @@ _But in the software you can play with the number (<170) according to your pixel
 
 ---
 
-license: [MIT]()
+license: [MIT](https://github.com/dattasaurabh82/PixelPusherNeo/blob/main/LICENSE)
