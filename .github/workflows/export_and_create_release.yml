@@ -1,4 +1,4 @@
-name: Export & create release
+name: Export & create release (from linux)
 
 on:
 #   push:
