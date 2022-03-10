@@ -23,3 +23,10 @@ jobs:
           sudo apt-get install -y software-properties-common xvfb libxrender1 libxtst6 libxi6
           sudo apt-get install -y libsdl2-2.0-0
 
+      - name: Download & Install Processing
+        run: |
+          wget https://github.com/processing/processing4/releases/download/processing-1276-4.0b1/processing-4.0b1-linux64.tgz
+          tar -xvzf processing-4.0b1-linux64.tgz
+          rm processing-4.0b1-linux64.tgz
+          ls -l
+          pwd
