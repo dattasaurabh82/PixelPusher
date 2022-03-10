@@ -46,9 +46,19 @@ jobs:
           echo $HOME
           LIB_DIR=$HOME"/sketchbook/libraries"
           wget -O $LIB_DIR/video.zip https://github.com/processing/processing-video/releases/download/latest/video-2.1.zip
+          wget -O $LIB_DIR/controlP5.zip https://github.com/sojamo/controlp5/releases/download/v2.2.6/controlP5-2.2.6.zip
+          wget -O $LIB_DIR/mqtt.zip https://github.com/256dpi/processing-mqtt/releases/download/v1.7.3/mqtt.zip
+          wget -O $LIB_DIR/artnet4j.zip https://github.com/cansik/artnet4j/releases/download/0.6.2/artnet4j.zip
+          unzip $LIB_DIR/artnet4j.zip -d $LIB_DIR
+          mv $LIB_DIR/artnet4j-0.6.2 $LIB_DIR/artnet4j
+          unzip $LIB_DIR/mqtt.zip -d $LIB_DIR
+          unzip $LIB_DIR/video.zip -d $LIB_DIR
+          unzip $LIB_DIR/controlP5.zip -d $LIB_DIR
           cd $LIB_DIR
           pwd
+          ls -l
           cd $HOME
           pwd
+          ls -l
 
 
