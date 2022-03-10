@@ -41,3 +41,7 @@ _But in the software you can play with the number (<170) according to your pixel
 ---
 
 license: [MIT](https://github.com/dattasaurabh82/PixelPusherNeo/blob/main/LICENSE)
+
+Primary developer: [Matthieu Cherubini](https://github.com/mchrbn)
+
+Soft Changes: [Saurabh Datta](https://github.com/dattasaurabh82)
