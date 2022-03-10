@@ -45,7 +45,7 @@ jobs:
           HOME="$(pwd)"
           echo $HOME
           LIB_DIR=$HOME"/sketchbook/libraries"
-          wget -O $LIB_DIR/video.zip https://github.com/processing/processing-video/releases/download/r8-2.0/video-2.0.zip
+          wget -O $LIB_DIR/video.zip https://github.com/processing/processing-video/releases/download/latest/video-2.1.zip
           cd $LIB_DIR
           pwd
           cd $HOME
