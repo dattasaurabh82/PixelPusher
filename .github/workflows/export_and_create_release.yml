@@ -10,18 +10,18 @@ on:
 
 jobs:
   export:
-    runs-on: macos-latest
+    runs-on: ubuntu-latest
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
 
-      # - name: Update System and install sys necessities
-      #   run: |
-      #     sudo apt-get update -y
-      #     sudo apt-get install -y default-jdk default-jre
-      #     sudo apt-get install -y jq
-      #     sudo apt-get install -y software-properties-common xvfb libxrender1 libxtst6 libxi6
-      #     sudo apt-get install -y libsdl2-2.0-0
+      - name: Update System and install sys necessities
+        run: |
+          sudo apt-get update -y
+          sudo apt-get install -y default-jdk default-jre
+          sudo apt-get install -y jq
+          sudo apt-get install -y software-properties-common xvfb libxrender1 libxtst6 libxi6
+          sudo apt-get install -y libsdl2-2.0-0
 
       - name: Download & Install Processing
         run: |

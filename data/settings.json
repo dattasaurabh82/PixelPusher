@@ -1,8 +1,8 @@
 {
-  "mqtt_server": "mqtt://127.0.0.1:1883",
+  "mqtt_server": "mqtt://localhost:1883",
   "pixel_nbr": 144,
-  "mqtt_topic": "pixelpusher/layer",
-  "artnet_ip": "192.168.132.115",
+  "mqtt_topic": "/pixelpusher/layer",
+  "artnet_ip": "127.0.0.1",
   "video_paths": [
     {},
     {},
