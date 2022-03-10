@@ -25,10 +25,10 @@ jobs:
 
       - name: Download & Install Processing
         run: |
-          PROCESSING_DOWNLOAD_LINK="https://github.com/processing/processing4/releases/download/processing-1276-4.0b1/processing-4.0b1-linux64.tgz"
-          PROCESSING_TAR_FILE="processing-4.0b1-linux64.tgz"
           cd ../../
           ls -l
+          PROCESSING_DOWNLOAD_LINK="https://github.com/processing/processing4/releases/download/processing-1276-4.0b1/processing-4.0b1-linux64.tgz"
+          PROCESSING_TAR_FILE="processing-4.0b1-linux64.tgz"
           mkdir sketchbook
           mkdir sketchbook/libraries
           mkdir sketchbook/sketches
@@ -40,10 +40,11 @@ jobs:
 
       - name: Download & install processing libraries
         run: |
-          pwd
+          cd ../../
           ls -l
           HOME="$(pwd)"
-          LIB_DIR=$HOME+"sketchbook/libraries"
+          echo $HOME
+          LIB_DIR=$HOME"sketchbook/libraries"
           cd $LIB_DIR
           pwd
           cd $HOME
