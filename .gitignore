@@ -1,5 +1,5 @@
 data/*.mp4
 data/*.m4v
-application.windows/*
-application.macosx/*
+# application.windows/*
+# application.macosx/*
 application.linux/*
