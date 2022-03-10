@@ -54,11 +54,8 @@ jobs:
           unzip $LIB_DIR/mqtt.zip -d $LIB_DIR
           unzip $LIB_DIR/video.zip -d $LIB_DIR
           unzip $LIB_DIR/controlP5.zip -d $LIB_DIR
-          cd $LIB_DIR
-          pwd
-          ls -l
-          cd $HOME
-          pwd
+          rm $LIB_DIR/*.zip
+          ls -l $LIB_DIR
           ls -l
 
 
