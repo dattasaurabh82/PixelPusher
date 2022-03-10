@@ -27,11 +27,26 @@ jobs:
         run: |
           PROCESSING_DOWNLOAD_LINK="https://github.com/processing/processing4/releases/download/processing-1276-4.0b1/processing-4.0b1-linux64.tgz"
           PROCESSING_TAR_FILE="processing-4.0b1-linux64.tgz"
+          cd ../../
+          ls -l
+          mkdir sketchbook
+          mkdir sketchbook/libraries
+          mkdir sketchbook/sketches
           wget --no-verbose --show-progress --progress=dot:mega $PROCESSING_DOWNLOAD_LINK
           tar -xvzf $PROCESSING_TAR_FILE
           rm $PROCESSING_TAR_FILE
           ls -l
           pwd
-          cd ../../
-          ls -l
+
+      - name: Download & install processing libraries
+        run: |
           pwd
+          ls -l
+          HOME="$(pwd)"
+          LIB_DIR=$HOME+"sketchbook/libraries"
+          cd $LIB_DIR
+          pwd
+          cd $HOME
+          pwd
+
+
