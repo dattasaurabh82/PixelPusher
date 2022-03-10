@@ -33,7 +33,7 @@ import java.awt.Dimension;
 import javax.swing.UIManager;
 import javax.swing.JOptionPane;
 
-boolean disable_popup = false;
+boolean disable_popup = true;
 String app_title = "Single Strip Neopixel ArtNet controller";
 String poup_msg = "VER: 0.1\nDate: Mar 2022\n\nA simple trigger based [MQTT]\nSingle addressable neopixel led strip\n"+
   "content controller, based on\nARTNET.\n\nBY: Matthieu Cherubini & Saurabh Datta\n" +
