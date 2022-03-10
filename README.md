@@ -15,7 +15,7 @@ A software that is able to take .mp4 video files (of a fixed size: 500x40) and b
 
 Upto 4 layers of simultaneous video sources are allowed which can be to be switched between to show up on the NeoPixel LED strip, by either manually clicking or by external MQTT triggers.
 
-### It built using:
+### It's built using:
 
 1. [Processing 4.0b1](https://github.com/processing/processing4/releases/tag/processing-1276-4.0b1). (Tested on both macOS Monterey and Windows 10 64 bit)
 2. Libraries used are (can be installed through Processing's library manager):
@@ -23,6 +23,9 @@ Upto 4 layers of simultaneous video sources are allowed which can be to be switc
     - [artnet4j 0.6.2](https://github.com/cansik/artnet4j/releases/download/0.6.2/artnet4j.zip)
     - [controlP5 2.2.6](https://github.com/sojamo/controlp5/releases/download/v2.2.6/controlP5-2.2.6.zip)
     - [video 8.2.0](https://github.com/processing/processing-video/releases/download/r8-2.0/video-2.0.zip)
+3. Please also install the `processing-java` on your os. __Note:__ For every version of Processing, the installation of `processing-java` version will also be different and since we were using __Processing 4.0b1__, we installed the corresponding `processing-java` for it in our system.
+
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/4619862/157594396-576df187-e5e3-4145-8dc8-9429f210271d.gif)
 
 ---
 
